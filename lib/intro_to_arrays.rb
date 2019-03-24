@@ -22,8 +22,8 @@ def last_element(arr)
 
 south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
 def first_element_with_array_methods(south_east_asia)
-  last = south_east_asia.first
-  return last
+  first_country = south_east_asia.first
+  return first_country
 end
 end
   
