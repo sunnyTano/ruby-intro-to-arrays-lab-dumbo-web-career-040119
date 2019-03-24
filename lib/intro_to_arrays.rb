@@ -19,9 +19,7 @@ end
 
 def last_element(arr)
   return arr[-1]
-
-
-
+end
 =begin
  
     describe "#first_element_with_array_methods" do 
