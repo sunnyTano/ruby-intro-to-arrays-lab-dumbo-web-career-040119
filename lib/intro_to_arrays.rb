@@ -12,34 +12,17 @@ taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods
 def first_element(arr)
   return arr[0]
 end  
+
+def third_element(arr)
+  return arr[2]
+end
+
+def last_element(arr)
+  return arr[-1]
+
 =begin
-
-  context 'indexing' do
-    before(:each) do
-      @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-    end
-    
-    describe "#first_element" do
-      it "takes in an argument of an array and returns the first element in the array using its positive index" do
-        my_first_element = first_element(@taylor_swift)
-        expect(my_first_element).to eq("Welcome to New York")
-      end
-    end
-
     describe "#third_element" do 
-      it "takes in an argument of an array and returns the third element in the array using its positive index" do
-        my_third_element = third_element(@taylor_swift)
-        expect(my_third_element).to eq("Style")
-      end
-    end
-
-    describe "#last_element" do
-      it "takes in an argument of an array and returns the last element in the array using its negative index" do
-        my_last_element = last_element(@taylor_swift)
-        expect(my_last_element).to eq("Out of The Woods")
-      end
-    end
-  end
+      it "takes in an argument of an array and returns the third 
 
   context 'using ruby array methods to return values from an array' do
     before(:each) do
