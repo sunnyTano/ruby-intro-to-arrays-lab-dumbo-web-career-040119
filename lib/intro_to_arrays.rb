@@ -21,7 +21,7 @@ def last_element(arr)
   return arr[-1]
 
 def first_element_with_array_methods(arr)
-  first_country = south_east_asia.shift
+  first_country = arr.shift
 end
   
 =begin
