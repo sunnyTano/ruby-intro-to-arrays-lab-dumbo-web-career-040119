@@ -11,7 +11,7 @@ end
 taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
 def first_element(arr)
   return arr[0]
-  
+end  
 =begin
 
   context 'indexing' do
