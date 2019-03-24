@@ -24,7 +24,7 @@ south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
 
 def first_element_with_array_methods(south_east_asia)
   first = south_east_asia.shift
-  return first
+  puts first.inspect
 end  
 end
   
