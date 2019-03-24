@@ -20,10 +20,10 @@ end
 def last_element(arr)
   return arr[-1]
 
-def first_element_with_array_methods(arr)
-  first_country = arr.shift
+def first_element_with_array_methods(array)
+  first_element = array.shift
 end
-  
+
 =begin
  
     describe "#first_element_with_array_methods" do 
