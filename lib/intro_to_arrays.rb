@@ -1,6 +1,5 @@
 def my_new_array
   arr = []
-  return arr
 end
 
 
