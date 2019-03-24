@@ -20,7 +20,7 @@ end
 def last_element(arr)
   return arr[-1]
 
-def first_element_with_array_methods(south_east_asia)
+def first_element_with_array_methods(arr)
   first_country = south_east_asia.shift
 end
   
