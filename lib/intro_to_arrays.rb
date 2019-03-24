@@ -20,15 +20,15 @@ end
 def last_element(arr)
   return arr[-1]
 
+south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
+def first_element_with_array_methods(south_east_asia)
+  first = south_east_asia.unshift()
+  return first
+end  
+  
+  
 =begin
-    describe "#third_element" do 
-      it "takes in an argument of an array and returns the third 
-
-  context 'using ruby array methods to return values from an array' do
-    before(:each) do
-      @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
-    end
-    
+ 
     describe "#first_element_with_array_methods" do 
       it 'takes in an argument of an array and returns the first element in the array, without referencing the index number of that element' do
         first_country = first_element_with_array_methods(@south_east_asia)
