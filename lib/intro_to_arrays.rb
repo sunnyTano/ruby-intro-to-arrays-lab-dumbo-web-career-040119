@@ -3,17 +3,11 @@ def instantiate_new_array
   return arr
 end
 
-
+def array_with_two_elements
+  
+  
+  
 =begin
-      it "creates a new array and returns it" do
-        expect(@my_new_array).to be_an(Array)
-      end
-
-      it "returns an array that is empty" do
-        size = @my_new_array.size 
-        expect(size).to eq(0)
-      end
-    end
     
     describe "#array_with_two_elements" do
       before(:each) do 
