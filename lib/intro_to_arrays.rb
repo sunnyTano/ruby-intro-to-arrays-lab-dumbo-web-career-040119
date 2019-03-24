@@ -20,11 +20,8 @@ end
 def last_element(arr)
   return arr[-1]
 
-south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
 def first_element_with_array_methods(south_east_asia)
-  first_country = south_east_asia.first
-  return first_country
-end
+  first_country = south_east_asia.shift
 end
   
 =begin
